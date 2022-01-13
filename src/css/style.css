@@ -1,3 +1,7 @@
+h1 h2 h3 p {
+    font-family: 'Font Awesome 5 Pro';
+}
+
 .header {
     position: relative;
     z-index: 1000;
@@ -100,7 +104,6 @@ ul.item_big li.nav-item.active a {
     color: #000 !important;
 }
 
-
 .carousel-inner {
     height: 300px;
 }
@@ -137,10 +140,8 @@ ul.item_big li.nav-item.active a {
     margin: 0 13px;
 }
 
-
 .nav-item-page {
     transform: skew(-30deg);
-
 }
 
 .nav-item-lh {
@@ -184,6 +185,7 @@ ul.item_big li.nav-item.active a {
     font-size: 60px;
 }
 
+
 /* .section_product .section-head {
     border-top: 3px solid #727272;
     position: relative;
@@ -198,6 +200,141 @@ ul.item_big li.nav-item.active a {
     width: 0;
 }
 
+.line-bottom-l {
+    position: absolute;
+    margin: -25px;
+    padding: 0 10px 0 10px;
+    height: 39px;
+    line-height: 39px;
+    font-weight: 500;
+    text-transform: uppercase;
+    float: left;
+    font-family: revert;
+    font-weight: 400;
+    z-index: 2;
+    width: 273px;
+    background: #000;
+}
+
+.line-bottom-r {
+    border-top: 36px solid #000;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent;
+    float: left;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 248px;
+    z-index: 1;
+}
+
+.line-bottom-l-1 {
+    position: absolute;
+    margin: -25px;
+    padding: 0 10px 0 10px;
+    height: 39px;
+    line-height: 39px;
+    font-weight: 500;
+    text-transform: uppercase;
+    float: left;
+    font-family: revert;
+    font-weight: 400;
+    z-index: 2;
+    width: 109px;
+    background: #000;
+}
+
+.line-bottom-r-1 {
+    border-top: 36px solid #000;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent;
+    float: left;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 82px;
+    z-index: 1;
+}
+
+.line-bottom-l-2 {
+    position: absolute;
+    margin: -25px;
+    padding: 0 10px 0 10px;
+    height: 39px;
+    line-height: 39px;
+    font-weight: 500;
+    text-transform: uppercase;
+    float: left;
+    font-family: revert;
+    font-weight: 400;
+    z-index: 2;
+    width: 298px;
+    background: #000;
+}
+
+.line-bottom-r-2 {
+    border-top: 36px solid #000;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent;
+    float: left;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 272px;
+    z-index: 1;
+}
+
+.line-bottom-l-3 {
+    position: absolute;
+    margin: -25px;
+    padding: 0 10px 0 10px;
+    height: 39px;
+    line-height: 39px;
+    font-weight: 500;
+    text-transform: uppercase;
+    float: left;
+    font-family: revert;
+    font-weight: 400;
+    z-index: 2;
+    width: 383px;
+    background: #000;
+}
+
+.line-bottom-r-3 {
+    border-top: 36px solid #000;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent;
+    float: left;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 358px;
+    z-index: 1;
+}
+
+.line-bottom-l-4 {
+    position: absolute;
+    margin: -25px;
+    padding: 0 10px 0 10px;
+    height: 39px;
+    line-height: 39px;
+    font-weight: 500;
+    text-transform: uppercase;
+    float: left;
+    font-family: revert;
+    font-weight: 400;
+    z-index: 2;
+    width: 273px;
+    background: #000;
+}
+
+.line-bottom-r-4 {
+    border-top: 36px solid #000;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent;
+    float: left;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 248px;
+    z-index: 1;
+}
+
 .section_product .section-head .line {
     border-top: 36px solid #f8ff0b;
     border-left: 0px solid transparent;
@@ -206,7 +343,6 @@ ul.item_big li.nav-item.active a {
     position: absolute;
     margin-top: -15px;
     margin-left: 248px;
-    box-shadow: -9px -10px 5px 2px #888888;
     z-index: 1;
 }
 
@@ -230,7 +366,6 @@ ul.item_big li.nav-item.active a {
     font-weight: 400;
     z-index: 2;
     background: #f8ff0b;
-    box-shadow: -10px -10px 5px 3px #888888;
 }
 
 .section_product .section-head .line-1 {
@@ -241,7 +376,6 @@ ul.item_big li.nav-item.active a {
     position: absolute;
     margin-top: -15px;
     margin-left: 83px;
-    box-shadow: -9px -10px 5px 2px #888888;
     z-index: 1;
 }
 
@@ -253,7 +387,6 @@ ul.item_big li.nav-item.active a {
     position: absolute;
     margin-top: -15px;
     margin-left: 273px;
-    box-shadow: -9px -10px 5px 2px #888888;
     z-index: 1;
 }
 
@@ -265,7 +398,6 @@ ul.item_big li.nav-item.active a {
     position: absolute;
     margin-top: -15px;
     margin-left: 358px;
-    box-shadow: -9px -10px 5px 2px #888888;
     z-index: 1;
 }
 
@@ -277,20 +409,21 @@ ul.item_big li.nav-item.active a {
     position: absolute;
     margin-top: -15px;
     margin-left: 248px;
-    box-shadow: -9px -10px 5px 2px #888888;
     z-index: 1;
 }
 
 #owl-demo .item img {
     display: block;
-    width: 240px;
+    min-width: 174px;
     float: left;
-    height: 135px;
+    min-height: 200px;
 }
 
 #owl-demo .item {
     margin: 0 !important;
     padding: 0 !important;
+    max-width: 177px;
+    float: left;
 }
 
 .owl-demo {
@@ -299,6 +432,11 @@ ul.item_big li.nav-item.active a {
 
 .section-3-title {
     position: absolute;
+}
+
+.section-3-td {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .item-4 {
@@ -358,11 +496,13 @@ ul.item_big li.nav-item.active a {
 
 .item_name {
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .item_name a {
     color: #353333;
-    font-family: system-ui;
+    font-family: 'Font Awesome 5 Pro';
 }
 
 .item-kl-top .item-kl {
@@ -414,6 +554,7 @@ ul.item_big li.nav-item.active a {
     position: relative;
 }
 
+
 /* .awe-section-8
 {
 background-color: rgb(140 143 136 / 50%);
@@ -435,6 +576,7 @@ background-color: rgb(140 143 136 / 50%);
 .section8-title h3 {
     font-size: 18px;
     font-weight: 600;
+    font-family: 'Font Awesome 5 Pro';
 }
 
 .section8-title {
@@ -448,6 +590,7 @@ background-color: rgb(140 143 136 / 50%);
 .section-8 {
     margin-top: 30px;
 }
+
 
 /*footer*/
 
@@ -475,6 +618,7 @@ footer {
 .table_tk tr th {
     padding: 5px;
 }
+
 
 /*---------------post*/
 
@@ -531,6 +675,12 @@ h3 a {
     text-overflow: ellipsis;
     overflow: hidden;
     font-size: 13px;
+    font-style: italic;
+}
+
+.title-head a span {
+    font-family: 'Font Awesome 5 Pro';
+    font-size: 24px;
 }
 
 .aside-item {
@@ -563,12 +713,12 @@ h3 a {
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     overflow: hidden;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .blog-item-name {
     margin-top: 0 !important;
-    margin-bottom: 0 !important;
+    margin-bottom: 4 !important;
 }
 
 .aside-item .heading .title-head a {
@@ -620,7 +770,7 @@ h3 a {
     padding: 0 !important;
 }
 
-.nav > li > a {
+.nav>li>a {
     color: #000;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -628,7 +778,9 @@ h3 a {
 
 .aside-title .title-head {
     font-size: 22px;
+    font-family: 'Font Awesome 5 Pro';
 }
+
 
 /*roduct-detail*/
 
@@ -796,6 +948,7 @@ h3 a {
     display: flex;
 }
 
+
 /* qty_Count  */
 
 #detail_product .button_actions .btn_base {
@@ -831,10 +984,11 @@ h3 a {
     align-items: center;
 }
 
-#detail_product .product-policises .media > div:not(.media-body) {
+#detail_product .product-policises .media>div:not(.media-body) {
     width: 32px;
     height: 32px;
 }
+
 
 /* Description Product----------- */
 
@@ -926,7 +1080,7 @@ h3 a {
     line-height: inherit;
 }
 
-.details-product .form-product .btn-callmeback + .btn-callmeback {
+.details-product .form-product .btn-callmeback+.btn-callmeback {
     float: right;
 }
 
@@ -953,4 +1107,36 @@ h3 a {
 
 .contact-info-page li i {
     margin-right: 10px;
+}
+
+.contact-info-page li {
+    margin: 8px 0;
+}
+
+.title-product {
+    font-family: 'Font Awesome 5 Pro';
+    margin-top: 0 !important;
+    font-size: 26px !important;
+}
+
+.box-maps {
+    margin-top: 20px;
+}
+
+.blog-item-summary {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.blog-main-center {
+    margin-top: 15px;
+}
+
+.main_container .title-head {
+    font-family: 'Font Awesome 5 Pro';
+    font-size: 25px;
 }
